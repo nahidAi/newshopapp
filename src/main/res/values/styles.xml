@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
+    /////////////////////////////////////////////////////////////////////
+    //ایجاد استایل جدید برای تغییر رنگ تکست کالرپرایمری (رنگ متن تولبار)
+
+    <style name="myStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        //تغییر رنگ تکست کالر سکندری (رنگ سه نقطه) t
+        <item name="android:textColorSecondary">@color/white</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
